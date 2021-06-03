@@ -1,9 +1,8 @@
 import requests, json
 # Import standart google service library
-from google.cloud import vision, firestore
+from google.cloud import firestore
 
 # Creates a client
-visionClient = vision.ImageAnnotatorClient()
 firestoreClient = firestore.Client()
 
 def gcsObjectChanges(event, context):
