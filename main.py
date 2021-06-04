@@ -20,7 +20,7 @@ def gcsObjectChanges(event, context):
 
     # Send a POST request to Machine Learning Instance through an API endpoint
     # Analyze the recent uploaded image in the Google Cloud Storage
-    url = 'http://EXTERNAL_IP_API_INSTANCE/analyze'
+    url = 'https://EXTERNAL_IP_API_INSTANCE/analyze'
     analyzeRequest = requests.post(
         url + 
         "?uri=gs://" + 
