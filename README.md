@@ -14,4 +14,5 @@
      - Runtime: **Python** (any version)
      - Entry point: **gcsObjectChanges**
      - Rewrite the **main.py** and **requirements.txt** using the provided source code in this repository
+     - Change the endpoint url (main.py) to your AI API endpoint.
  5. Test the function by upload an image to the Storage Bucket--that has been created previously--either via Firebase Console or Google Cloud Console and see the result on the Firebase Storage.
