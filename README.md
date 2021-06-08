@@ -1,5 +1,6 @@
 # gscObjectChangesPython
  Bangkit Final Project 2021
+# Descriptions
  This source code is meant as a mediatory between the back-end infrastructure (data lake, database, and machine learning model) and the mobile app. This function will automatically triggered if there is any object changes (mainly intended for images) in a **Storage Bucket** and process it using **AutoML Vision** (at a glance, it should not be using a pre-trained machine learning model, but to provide a clear working function) to gain some labeling for further stored in the **Firestore** database.
 # Instructions
  1. Create a project in Firebase console (which synchronously integrated with Google Cloud in the background procecss) via https://console.firebase.google.com
